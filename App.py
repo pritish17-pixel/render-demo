@@ -2,7 +2,6 @@ import streamlit as st
 import pickle
 import pandas as pd
 import requests
-from flask import jsonify,request,render_template
 
 def fetch_poster(movie_id):
     url = "" \
